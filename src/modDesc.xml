@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="40">
+	<!--
+		Author: Martin Fabík <mar.fabik@gmail.com> (aka LoogleCZ)
+		Date: 2020-02-15
+		
+		GitHub project: https://github.com/LoogleCZ/FS19-DisplayOwner
+		Internal namespace of this mod is: LDO
+	-->
+    <author>Martin Fabík &lt;mar.fabik@gmail.com&gt;</author>
+    <version>1.0.0</version>
+	
+    <title>
+        <en>Display owner mod</en>
+        <cz>Mod zobrazení vlastníka</cz>
+    </title>
+    <description>
+        <en>
+<![CDATA[
+Display owner (farm) of the vehicle or object. Useful in MP where you don't know real owner of vehicle/object.
+]]>
+		</en>
+        <cz>
+<![CDATA[
+Zobrazí jméno farmy, která vlastní dané vozidlo nebo objekt. Užitečné v multiplayeru, kde nevíte kdo vlastní dané vozidlo/objekt. 
+]]>
+		</cz>
+    </description>
+	
+    <multiplayer supported="true"/>
+    <iconFilename>icon.dds</iconFilename>
+	
+	<!-- texts and translations -->
+	<l10n>
+		<text name="LDO_object_owner">
+			<en>%s is property of %s farm</en>
+			<cz>%s vlastní farma %s</cz>
+		</text>
+	</l10n>
+	
+	<extraSourceFiles>
+		<sourceFile filename="scripts/DisplayOwner.lua" />  <!-- Credits: Martin Fabík (LoogleCZ) -->
+    </extraSourceFiles>
+</modDesc>
